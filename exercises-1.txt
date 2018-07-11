@@ -35,6 +35,29 @@ ELSE
     DISPLAY 'Bukan Merupakan Tahun Kabisat'
 END IF
 
+PERBAIKAN SOAL NO. 2 (MENENTUKAN TAHUN KABISAT)
+//ALGORITMA
+MENENTUKAN TAHUN KABISAT
+1. Masukan nilai 'Tahun'
+2. cek apakah tahun kabisat atau bukan
+   2.A Jika 'Tahun' habis dibagi 4 dan 'Tahun' tidak habis dibagi 100 maka tampilkan 'Merupakan Tahun Kabisat'
+   2.B Jika 'Tahun' habis dibagi 4 atau 'Tahun' habis dibagi 100 dan 'Tahun' habis dibagi 400 = 0 maka tampilkan 'Merupakan Tahun Kabisat'
+3. Selain itu tampilkan 'Bukan Merupakan Tahun Kabisat'
+
+
+//PSEUDOCODE
+STORE 'Tahun' with any value number
+
+IF Tahun' / 4 = 0 OR 'Tahun' / 100 != 0 THEN
+    DISPLAY 'Merupakan Tahun Kabisat'
+ELSE IF 
+    'Tahun' / 4 = 0 OR 'Tahun' / 100 = 0 AND 'Tahun' / 400 = 0
+    DISPLAY 'Merupakan Tahun Kabisat'
+ELSE
+    DISPLAY 'Bukan Merupakan Tahun Kabisat'
+END IF
+
+
 No. 3
 //ALGORTIMA
 1. Masukan nilai 'jumlahCucian' = 20
